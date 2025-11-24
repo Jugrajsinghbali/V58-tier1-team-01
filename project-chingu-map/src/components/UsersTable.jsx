@@ -59,13 +59,21 @@ export default function UsersTable() {
       ));   
     return (
     <>
-        <div>Users Table Component</div>
-        <table>
+        <div className="table-container">Users Table Component</div>
+        <table className="table">
   <thead>
     <tr>
-      <th>User Name</th>
+      <th>User Time</th>
       <th>Gender</th>
+     <th>Country</th>
+       <th>Timezone</th>
       <th>Goal</th>
+      <th>Source</th>
+      <th>Solo Project Tier</th>
+      <th>Role Type</th>
+      <th>Voyage Role</th>
+      <th>Voyage</th>
+      <th>Voyage Tier</th>
     </tr>
   </thead>
   <tbody>
@@ -73,7 +81,7 @@ export default function UsersTable() {
   </tbody>
   <tfoot>
     <tr>
-      <td colspan="4">End of Table</td>
+      <td colspan="11"></td>
     </tr>
   </tfoot>
 </table>
