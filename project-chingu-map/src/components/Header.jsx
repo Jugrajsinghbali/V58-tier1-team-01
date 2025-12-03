@@ -17,7 +17,7 @@ const Header = () => {
           Home
         </Link>
         <Link
-          to="/"
+          to="/MapPage"
           className="text-lg hover:underline decoration-2 underline-offset-4"
         >
           Map
