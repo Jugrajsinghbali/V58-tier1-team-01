@@ -1,4 +1,9 @@
 import { Linkedin } from "lucide-react";
+import  Anas from "../assets/images/profile-Image/anas.jpeg";
+import  Fadumo from "../assets/images/profile-Image/fadumo.jpeg";
+import  Isreal from "../assets/images/profile-Image/Isreal.jpeg";
+import  Jugraj from "../assets/images/profile-Image/Jugraj.jpeg";
+import  Amin from "../assets/images/profile-Image/Amin.jpeg";
 
 
 const teamMembers = [
@@ -6,36 +11,54 @@ const teamMembers = [
     id: 1,
     name: "Anas El Assri",
     role: "Frontend Developer",
-    imageUrl: "/images/team/anas.jpg",
-    linkedin: "https://www.linkedin.com/in/example",
-    description:
-      "Passionate about building modern, fast, and aesthetic web interfaces using React, Tailwind CSS, and Framer Motion."
+    imageUrl: Anas,
+    linkedin: "https://www.linkedin.com/in/anas-el-assri-852920279",
+    description: "Passionate about building modern, fast, and aesthetic web interfaces using React, Tailwind CSS, and Framer Motion."
   },
   {
     id: 2,
+<<<<<<< HEAD
     name: "Jugraj Singh Bali",
     role: "Full Stack Developer",
     imageUrl: "/images/team/sarah.jpg",
     linkedin: "https://www.linkedin.com/in/jugraj-singh-bali-117994268/",
     description:
       "Experienced in building end-to-end web applications with a focus on performance, scalability, and user experience."},
+=======
+    name: "Fadumo Ahmed",
+    role: "Frontend Developer",
+    imageUrl: Fadumo,
+    linkedin: "https://www.linkedin.com/in/fadumo-ahmed-06657715a",
+    description:"Creative frontend developer skilled in crafting responsive designs and seamless user experiences with HTML, CSS, and JavaScript."
+     
+  },
+>>>>>>> f3f3f717e3dc58533e185069472f4bf5a1b89d78
   {
     id: 3,
-    name: "Michael Chan",
-    role: "Backend Developer",
-    imageUrl: "/images/team/michael.jpg",
-    linkedin: "https://www.linkedin.com/in/example3",
+    name: "Isreal Oyebamiji",
+    role: "AI Product Developer",
+    imageUrl: Isreal,
+    linkedin: "https://www.linkedin.com/in/israel-oyebamiji-7576a3342",
     description:
-      "Server-side expert specializing in Node.js, scalable APIs, and database optimization for high-performance apps."
+      "Innovative AI product developer focused on integrating machine learning solutions into user-centric applications to enhance functionality and user engagement."
   },
   {
     id: 4,
-    name: "Emily Rodriguez",
-    role: "Marketing Manager",
-    imageUrl: "/images/team/emily.jpg",
-    linkedin: "https://www.linkedin.com/in/example4",
+    name: "Jugraj Singh Bali",
+    role: "Full Stack Developer",
+    imageUrl: Jugraj,
+    linkedin: "https://www.linkedin.com/in/jugraj-singh-bali-117994268/",
     description:
-      "Digital marketing strategist helping brands grow through SEO, content strategy, and performance analytics."
+      "Versatile full stack developer with expertise in MERN stack, building robust web applications from frontend to backend."
+  },
+    {
+    id: 5,
+    name: "Amin Khorram",
+    role: "AI/ML ENGINEER ",
+    imageUrl: Amin,
+    linkedin: "https://www.linkedin.com/in/aminkhorram/",
+    description:
+      "Dedicated AI/ML engineer with a passion for developing intelligent systems and machine learning models to solve complex problems."
   }
 ];
 
