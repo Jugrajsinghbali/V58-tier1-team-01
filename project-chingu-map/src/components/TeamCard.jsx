@@ -1,6 +1,6 @@
 import { Linkedin } from "lucide-react";
-import  Anas from "../assets/images/profile-Image/anas.jpeg";
-import  Fadumo from "../assets/images/profile-Image/fadumo.jpeg";
+import  Anas from "../assets/images/profile-Image/Anas.jpeg";
+import  Fadumo from "../assets/images/profile-Image/Fadumo.jpeg";
 import  Isreal from "../assets/images/profile-Image/Isreal.jpeg";
 import  Jugraj from "../assets/images/profile-Image/Jugraj.jpeg";
 import  Amin from "../assets/images/profile-Image/Amin.jpeg";
@@ -15,16 +15,8 @@ const teamMembers = [
     linkedin: "https://www.linkedin.com/in/anas-el-assri-852920279",
     description: "Passionate about building modern, fast, and aesthetic web interfaces using React, Tailwind CSS, and Framer Motion."
   },
-  {
+    {
     id: 2,
-<<<<<<< HEAD
-    name: "Jugraj Singh Bali",
-    role: "Full Stack Developer",
-    imageUrl: "/images/team/sarah.jpg",
-    linkedin: "https://www.linkedin.com/in/jugraj-singh-bali-117994268/",
-    description:
-      "Experienced in building end-to-end web applications with a focus on performance, scalability, and user experience."},
-=======
     name: "Fadumo Ahmed",
     role: "Frontend Developer",
     imageUrl: Fadumo,
@@ -32,7 +24,6 @@ const teamMembers = [
     description:"Creative frontend developer skilled in crafting responsive designs and seamless user experiences with HTML, CSS, and JavaScript."
      
   },
->>>>>>> f3f3f717e3dc58533e185069472f4bf5a1b89d78
   {
     id: 3,
     name: "Isreal Oyebamiji",
