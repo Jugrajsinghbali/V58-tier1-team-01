@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Chingu Member Demographics API using Prisma + PostgreSQL",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.19.0",
+    "prisma": "^6.19.0",
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
