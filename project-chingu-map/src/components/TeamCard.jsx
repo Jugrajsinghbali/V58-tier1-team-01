@@ -13,13 +13,12 @@ const teamMembers = [
   },
   {
     id: 2,
-    name: "Sarah Johnson",
-    role: "Product Designer",
+    name: "Jugraj Singh Bali",
+    role: "Full Stack Developer",
     imageUrl: "/images/team/sarah.jpg",
-    linkedin: "https://www.linkedin.com/in/example2",
+    linkedin: "https://www.linkedin.com/in/jugraj-singh-bali-117994268/",
     description:
-      "Experienced UI/UX designer focused on creating clean, minimalistic digital experiences with strategic thinking."
-  },
+      "Experienced in building end-to-end web applications with a focus on performance, scalability, and user experience."},
   {
     id: 3,
     name: "Michael Chan",
